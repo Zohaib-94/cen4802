@@ -1,6 +1,10 @@
 public class Fibonacci {
 
-
+    /**
+     * This is a recursive method it will find nth term
+     * @param
+     * @return
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -15,3 +19,4 @@ public class Fibonacci {
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
     }
 }
+
